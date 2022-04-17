@@ -1,0 +1,28 @@
+.Maindivservice {
+  display: flex;
+  width: 100%;
+  padding: 35px;
+}
+
+.myCardStyle {
+  margin-top: 20px;
+  margin-left: 15px;
+  /* box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%); */
+  height: 370px;
+  padding: 40px;
+  align-items: center;
+  text-align: center;
+}
+
+.mycardImg {
+  height: 100px;
+  width: 100px;
+}
+
+.vv:hover {
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%)
+}
+
+.btn-dark {
+  width: 100%
+}
