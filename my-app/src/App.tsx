@@ -16,7 +16,7 @@ function App() {
       <div>
         <Header />
         <Switch>
-          <Route exact path="/" component={Home} />
+          <Route exact path="/KTI" component={Home} />
           <Route path="/service" component={Service} />
           <Route path="/about" component={About} />
         </Switch>

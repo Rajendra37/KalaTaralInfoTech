@@ -19,7 +19,7 @@ export default function Header() {
                         <Nav.Link className='text-light' href="/service">About</Nav.Link>
                         <Nav.Link className='text-light' href="/about">Services</Nav.Link> */}
 
-                        <NavLink to="/" className='nav-link text-light'>Home</NavLink>
+                        <NavLink to="/KTI" className='nav-link text-light'>Home</NavLink>
                         <NavLink to="/about" className='nav-link text-light'>About</NavLink>
                         <NavLink to="/service" className='nav-link text-light'>Services</NavLink>
                     </Nav>
