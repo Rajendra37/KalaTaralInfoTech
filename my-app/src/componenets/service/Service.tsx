@@ -34,7 +34,7 @@ function MyVerticallyCenteredModal(props: any,) {
           <Button variant="dark" onClick={props.onHide}>Close</Button>
         </Modal.Footer>
       </Modal>
-      )
+
     </>
   )
 }
@@ -77,5 +77,6 @@ export default function Service(props: any) {
         onHide={() => setModalShow(false)}
       />
     </div>
+
   )
 }

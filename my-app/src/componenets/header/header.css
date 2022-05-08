@@ -1,5 +1,10 @@
-.headerlogo{
+.headerlogo {
     height: 70px;
     width: 160px;
     filter: brightness(0) invert(1);
+}
+
+.linkClass {
+    font-size: 18px;
+    font-weight: 600;
 }

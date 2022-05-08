@@ -5,6 +5,7 @@ import Row from 'react-bootstrap/esm/Row'
 import "../home/home.css"
 import sdata from '../service/ServiceData'
 import Carosual from './Carosual'
+import Service from '../service/Service'
 
 export default function Home() {
   const columnsPerRow = 5;
@@ -12,7 +13,8 @@ export default function Home() {
     <>
       <Carosual />
       <div className='Maindivhome'>
-        <Container>
+        <Service />
+        {/* <Container>
           <Row xs={1} md={columnsPerRow}>
             {sdata.map((items) => {
               return (
@@ -25,7 +27,7 @@ export default function Home() {
               )
             })}
           </Row>
-        </Container>
+        </Container> */}
       </div>
     </>
   )

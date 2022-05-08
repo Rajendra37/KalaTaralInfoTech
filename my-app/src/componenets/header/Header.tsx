@@ -7,11 +7,11 @@ import "./header.css"
 
 export default function Header() {
     return (
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark"  fixed={'top'} className={'position-sticky ps-0'}>
             <Container>
-                <Navbar.Brand href="#home">
-                    <img src={logo} alt="Logo"  className='headerlogo'/>
-                </Navbar.Brand>
+                <NavLink to="/KTI">
+                    <img src={logo} alt="Logo" className='headerlogo' />
+                </NavLink>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ms-auto fixed-nav-bar">
@@ -19,9 +19,9 @@ export default function Header() {
                         <Nav.Link className='text-light' href="/service">About</Nav.Link>
                         <Nav.Link className='text-light' href="/about">Services</Nav.Link> */}
 
-                        <NavLink to="/KTI" className='nav-link text-light'>Home</NavLink>
-                        <NavLink to="/about" className='nav-link text-light'>About</NavLink>
-                        <NavLink to="/service" className='nav-link text-light'>Services</NavLink>
+                        <NavLink to="/KTI" className='nav-link text-light linkClass'>Home</NavLink>
+                        <NavLink to="/about" className='nav-link text-light linkClass'>About</NavLink>
+                        <NavLink to="/service" className='nav-link text-light linkClass'>Services</NavLink>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
